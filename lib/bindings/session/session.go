@@ -8,10 +8,10 @@ default Session or implementing your own Custom Session.
 import (
 	"encoding/json"
 
-	. "github.com/miketheprogrammer/go-thrust/lib/commands"
-	. "github.com/miketheprogrammer/go-thrust/lib/common"
-	"github.com/miketheprogrammer/go-thrust/lib/connection"
-	"github.com/miketheprogrammer/go-thrust/lib/dispatcher"
+	. "github.com/melvinodsa/go-thrust/lib/commands"
+	. "github.com/melvinodsa/go-thrust/lib/common"
+	"github.com/melvinodsa/go-thrust/lib/connection"
+	"github.com/melvinodsa/go-thrust/lib/dispatcher"
 )
 
 /*

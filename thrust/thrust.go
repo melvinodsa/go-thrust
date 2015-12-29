@@ -3,14 +3,14 @@ package thrust
 import (
 	"runtime"
 
-	"github.com/miketheprogrammer/go-thrust/lib/bindings/menu"
-	"github.com/miketheprogrammer/go-thrust/lib/bindings/session"
-	"github.com/miketheprogrammer/go-thrust/lib/bindings/window"
-	"github.com/miketheprogrammer/go-thrust/lib/common"
-	"github.com/miketheprogrammer/go-thrust/lib/connection"
-	"github.com/miketheprogrammer/go-thrust/lib/dispatcher"
-	"github.com/miketheprogrammer/go-thrust/lib/events"
-	"github.com/miketheprogrammer/go-thrust/lib/spawn"
+	"github.com/melvinodsa/go-thrust/lib/bindings/menu"
+	"github.com/melvinodsa/go-thrust/lib/bindings/session"
+	"github.com/melvinodsa/go-thrust/lib/bindings/window"
+	"github.com/melvinodsa/go-thrust/lib/common"
+	"github.com/melvinodsa/go-thrust/lib/connection"
+	"github.com/melvinodsa/go-thrust/lib/dispatcher"
+	"github.com/melvinodsa/go-thrust/lib/events"
+	"github.com/melvinodsa/go-thrust/lib/spawn"
 )
 
 /*
@@ -41,8 +41,8 @@ func NewMenu() *menu.Menu {
 /*
 Start spawns the thrust core executable, and begins the dispatcher loop in a go routine
 */
-func Start() {
-	spawn.Run()
+func Start(dir string) {
+	spawn.Run(dir)
 	go dispatcher.RunLoop()
 }
 

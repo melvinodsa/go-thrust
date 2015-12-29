@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/miketheprogrammer/go-thrust/lib/bindings/window"
-	"github.com/miketheprogrammer/go-thrust/lib/commands"
-	"github.com/miketheprogrammer/go-thrust/thrust"
-	"github.com/miketheprogrammer/go-thrust/tutorials/provisioner"
+	"github.com/melvinodsa/go-thrust/lib/bindings/window"
+	"github.com/melvinodsa/go-thrust/lib/commands"
+	"github.com/melvinodsa/go-thrust/thrust"
+	"github.com/melvinodsa/go-thrust/tutorials/provisioner"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {

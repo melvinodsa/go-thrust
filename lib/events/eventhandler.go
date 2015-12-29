@@ -3,8 +3,8 @@ package events
 import (
 	"errors"
 
-	"github.com/miketheprogrammer/go-thrust/lib/commands"
-	"github.com/miketheprogrammer/go-thrust/lib/dispatcher"
+	"github.com/melvinodsa/go-thrust/lib/commands"
+	"github.com/melvinodsa/go-thrust/lib/dispatcher"
 )
 
 /*

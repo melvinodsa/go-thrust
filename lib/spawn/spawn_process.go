@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	. "github.com/miketheprogrammer/go-thrust/lib/common"
-	"github.com/miketheprogrammer/go-thrust/lib/connection"
+	. "github.com/melvinodsa/go-thrust/lib/common"
+	"github.com/melvinodsa/go-thrust/lib/connection"
 )
 
 const (
@@ -56,7 +56,8 @@ Go-Thrust and all *-Thrust packages communicate with Thrust Core via Stdin/Stdou
 using -log=debug as a command switch will give you the most information about what is going on. -log=info will give you notices that stuff is happening.
 Any log level higher than that will output nothing.
 */
-func Run() {
+func Run(dir string) {
+	base = dir
 	if Log == nil {
 		InitLogger("debug")
 	}

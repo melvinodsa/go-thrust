@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/miketheprogrammer/go-thrust/thrust"
-	"github.com/miketheprogrammer/go-thrust/tutorials/provisioner"
+	"github.com/melvinodsa/go-thrust/thrust"
+	"github.com/melvinodsa/go-thrust/tutorials/provisioner"
 )
 
 func main() {

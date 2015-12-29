@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/miketheprogrammer/go-thrust/lib/common"
+	"github.com/melvinodsa/go-thrust/lib/common"
 )
 
 /*
